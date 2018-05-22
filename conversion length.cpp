@@ -75,10 +75,10 @@ int main()
 	double m;
 	int a;
 	int b;
-	cout << "ÊäÈëÃ×" << endl;
+	cout << "please input meter" << endl;
 	cin >> m ;
 	od.conversion(m);
-	cout << "ÊäÈëÓ¢³ß£¬Ó¢´ç" << endl;
+	cout << "input feet,input inch" << endl;
 	cin >> a >> b;
 	od.setvalue(a, b);
 	od.sum();
